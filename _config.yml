@@ -1,0 +1,18 @@
+title: fjuan's blog
+slogan: Welcome to my blog
+url: http://fjuan.github.com
+feed-url: http://feeds.feedburner.com/fjuan
+author: Francisco de Juan
+author_email: francisco.juan@gmail.com
+
+live: false
+
+permalink: pretty
+auto: true
+server: true
+lsi: false
+pygments: true
+exclude: private
+
+paginate: 3
+
