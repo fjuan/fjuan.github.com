@@ -16,3 +16,13 @@ exclude: private
 
 paginate: 3
 
+navigation:
+  - name: Blog
+    url: /
+    layout: post
+  - name: Libros
+    url: /books/
+    layout: book
+  - name: "Sobre mi"
+    url: /about/
+

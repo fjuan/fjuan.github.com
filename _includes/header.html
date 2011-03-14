@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <title>{{ page.title }} | fjuan.es</title>
 
-  <link rel="stylesheet" href="/css/style.css" />  
   <link rel="stylesheet" href="/css/reset.css" />
   <link rel="stylesheet" href="/css/oocss.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />  
   
   <link href="http://feeds.feedburner.com/fjuan" rel="alternate" title="RSS de fjuan.es" type="application/atom+xml" />
   
@@ -25,9 +25,14 @@
       
       <nav>
         <ul class="unit size1of2">
-          <li><a href="/" title="Inicio">Inicio</a></li>
-          <li><a href="/books" title="Libros">Libros</a></li>
-          <li><a href="/about" title="Sobre fjuan">Sobre mi</a></li>
+          {% for nav in site.navigation %}
+            {% assign current = nil %}
+            {% capture long_url %}{{ nav.url }}index.html{% endcapture %} 
+            {% if nav.url == page.url or long_url == page.url or page.layout == nav.layout %}
+              {% assign current = "current" %}
+            {% endif %}
+            <li><a href="{{ nav.url }}" class="{{ current }}">{{ nav.name }}</a></li>
+          {% endfor %}
         </ul>
         
         <ul class="social unit size1of2 lastUnit">
