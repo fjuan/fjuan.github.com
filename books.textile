@@ -3,7 +3,7 @@ layout: default
 title: Libros
 ---
 
-h1. Books
+h1. Libros
 
 p. Estos son los libros que m&aacute;s me han gustado:
 
