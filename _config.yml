@@ -1,11 +1,9 @@
 title: fjuan's blog
 slogan: Welcome to my blog
-url: http://fjuan.github.com
+url: http://www.fjuan.es
 feed-url: http://feeds.feedburner.com/fjuan
 author: Francisco de Juan
-author_email: francisco.juan@gmail.com
-
-live: false
+author_email: contacto@fjuan.es
 
 permalink: pretty
 auto: true
