@@ -7,7 +7,7 @@
         <article>
           <header>
             <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-            <p>Publicado el <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>{{ page.date | date: "%d/%m/%Y" }}</time></p>
+            <p class="pub-date">Publicado el <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>{{ page.date | date: "%d/%m/%Y" }}</time></p>
           </header>
           {{ content }}
         </article>

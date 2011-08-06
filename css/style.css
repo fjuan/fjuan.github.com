@@ -6,6 +6,12 @@
   list-style-type: none;
 }
 
+/* pub-date */
+.pub-date {
+  font-size: 90%;
+  color: #A9A9A9;
+}
+
 /* Header */
 .head header {
   background-color: rgba(255, 255, 255, 0.8);
@@ -51,10 +57,7 @@ nav ul.social li {
 /* Footer */
 footer {
     background-color: rgba(255, 255, 255, 0.8);
-    bottom: 0;
     font-size: 12px;
-    left: 0;
-    position: fixed;
     text-align: center;
     width: 100%;
     z-index: 99999;

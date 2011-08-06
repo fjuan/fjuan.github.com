@@ -10,7 +10,7 @@ title: Blog
 
 h1. "{{ post.title }}":{{ post.url }}
 
-p. Publicado el <time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate>{{ post.date | date: "%d/%m/%Y" }}</time>
+p(pub-date). Publicado el <time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate>{{ post.date | date: "%d/%m/%Y" }}</time>
 
   </header>
   {{ post.content }}
