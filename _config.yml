@@ -1,9 +1,8 @@
-title: fjuan's blog
-slogan: Welcome to my blog
+title: Francisco de Juan
+slogan: "Creating webs with ruby & writting cooking books"
 url: http://www.fjuan.es
-feed-url: http://feeds.feedburner.com/fjuan
 author: Francisco de Juan
-author_email: contacto@fjuan.es
+author_email: me@fjuan.es
 
 permalink: pretty
 auto: true
@@ -11,16 +10,3 @@ server: true
 lsi: false
 pygments: true
 exclude: private
-
-paginate: 3
-
-navigation:
-  - name: Blog
-    url: /
-    layout: post
-  - name: Libros
-    url: /books/
-    layout: book
-  - name: "Sobre mi"
-    url: /about/
-
