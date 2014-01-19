@@ -6,8 +6,7 @@ author_email: me@fjuan.es
 keywords: "Francisco de Juan, fjuan, curriculum, resume, cv, splendeo, recetas de mama, ruby, ruby on rails, wordpress"
 
 permalink: pretty
-auto: true
-server: true
 lsi: false
 pygments: true
-exclude: private
+exclude: 
+  - private
