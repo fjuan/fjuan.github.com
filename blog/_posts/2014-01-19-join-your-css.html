@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Join your CSS"
+---
+
+<h2>Use Juicer gem</h2>
+
+This theme is using several CSS files and it's wise to join all of them before deploying to production
+
+I'll use the <a href="https://github.com/cjohansen/juicer">Juicer</a> gem for this:
+
+{% highlight bash %}
+juicer merge -o assets/stylesheets/style.merged.css assets/stylesheets/bootstrap.min.css assets/stylesheets/bootstrap-responsive.min.css assets/stylesheets/pygments-github.css assets/stylesheets/font-awesome.css assets/stylesheets/style.css  --document-root ~/fjuan.github.io/current-folder --force
+{% endhighlight %}
+
+
+<h2>Installing the gem</h2>
+{% highlight bash %}
+gem install juicer
+{% endhighlight %}
+
+
