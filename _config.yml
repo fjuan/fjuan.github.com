@@ -7,6 +7,6 @@ keywords: "Francisco de Juan, fjuan, curriculum, resume, cv, splendeo, recetas d
 
 permalink: pretty
 lsi: false
-pygments: true
+highlighter: true
 exclude: 
   - private
