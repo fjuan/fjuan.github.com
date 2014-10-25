@@ -1,0 +1,16 @@
+## Ubuntu
+
+sudo aptitude update
+sudo aptitude safe-upgrade
+sudo apt-get remove --purge $(dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d')
+sudo aptitude install dkms build-essential linux-headers-generic linux-headers-$(uname -r)
+sudo mount -t iso9660 -o loop /vagrant/VBoxGuestAdditions_4.3.12.iso /mnt
+sudo /mnt/VBoxLinuxAdditions.run
+
+
+## Centos
+
+sudo yum update
+sudo yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+sudo mount -t iso9660 -o loop /vagrant/VBoxGuestAdditions_4.3.12.iso /mnt
+sudo /mnt/VBoxLinuxAdditions.run
