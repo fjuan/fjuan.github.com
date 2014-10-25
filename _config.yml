@@ -1,12 +1,12 @@
-title: Francisco de Juan
-slogan: "Creating webs with ruby & writing cooking books"
-url: http://www.fjuan.es
-author: Francisco de Juan
-author_email: me@fjuan.es
+title: "Francisco de Juan"
+slogan: "Ruby freelance developer"
+url: "http://www.redtux.io"
+author: "Francisco de Juan"
+author_email: "francisco.juan@redtux.io"
 keywords: "Francisco de Juan, fjuan, curriculum, resume, cv, splendeo, recetas de mama, ruby, ruby on rails, wordpress"
 
-permalink: pretty
-lsi: false
+permalink: "pretty"
+lsi: "false"
 highlighter: true
 exclude: 
   - private

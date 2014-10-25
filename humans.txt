@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Uniq: Francisco de Juan
+    Contact: francisco.juan [at] redtux.io
+    Twitter: @fjuan
+    From: Cordoba, Spain
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
