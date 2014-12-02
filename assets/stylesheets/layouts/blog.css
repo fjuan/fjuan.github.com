@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #EFEFEF;
+}
+
 a {
     text-decoration: none;
     color: rgb(61, 146, 201);
@@ -34,10 +38,12 @@ h3 {
 }
 
 .sidebar {
-    background: rgb(61, 79, 93);
+    background: rgb(43,78,114);
     color: #fff;
 }
-
+.sidebar a {
+    color: #fff;
+}
 .brand-title,
 .brand-tagline {
     margin: 0;
@@ -91,7 +97,7 @@ h3 {
 }
 .post-title {
     font-size: 2em;
-    color: #222;
+    color: #342C2D;
     margin-bottom: 0.2em;
 }
 .post-avatar {
