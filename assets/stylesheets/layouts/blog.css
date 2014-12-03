@@ -123,8 +123,8 @@ h3 {
     background: #999;
     font-size: 80%;
 }
-    .post-category-design {
-        background: #5aba59;
+    .post-category-tech {
+        background: rgb(43,78,114);
     }
     .post-category-pure {
         background: #4d85d1;
@@ -132,7 +132,7 @@ h3 {
     .post-category-yui {
         background: #8156a7;
     }
-    .post-category-js {
+    .post-category-ruby {
         background: #df2d4f;
     }
 
