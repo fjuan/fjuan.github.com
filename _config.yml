@@ -7,6 +7,5 @@ keywords: "Francisco de Juan, fjuan, curriculum, resume, cv, ruby, ruby develope
 
 permalink: "pretty"
 lsi: "false"
-highlighter: true
-exclude: 
+exclude:
   - private
