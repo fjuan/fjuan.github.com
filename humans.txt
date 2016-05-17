@@ -3,10 +3,10 @@
 
 # TEAM
 
-    Uniq: Francisco de Juan
-    Contact: francisco.juan [at] redtux.io
+    Uniq: Francisco Juan
+    Contact: francisco.juan [at] gmail.com
     Twitter: @fjuan
-    From: Cordoba, Spain
+    From: Uppsala, Sweden
 
 # TECHNOLOGY COLOPHON
 
