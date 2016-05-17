@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/fjuan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://fjuan.me
+  * I am fjuan (https://keybase.io/fjuan) on keybase.
+  * I have a public key with fingerprint DEA6 B5A6 576D 3AD6 2D3B  354B 2CAD B40B E996 4F11
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101520461cd92c0ae1db3690084cae157c66e2ad23d470e2b9b31395de000829d670a",
+            "fingerprint": "dea6b5a6576d3ad62d3b354b2cadb40be9964f11",
+            "host": "keybase.io",
+            "key_id": "2cadb40be9964f11",
+            "kid": "0101520461cd92c0ae1db3690084cae157c66e2ad23d470e2b9b31395de000829d670a",
+            "uid": "097d061de0fdf22b78e055ca51efd200",
+            "username": "fjuan"
+        },
+        "service": {
+            "hostname": "fjuan.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1463462403,
+    "expire_in": 157680000,
+    "prev": "9deaa54c5bac464649c65783dd92296da47775ffa949b968cc9afdc5c5c5d309",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIfAnicrVJbbExBGN5VVtukLkkfiEsYEcRizm3OnvWg1j2KoIl7NnPOzNk9ques
+PWd3Vd3SfUJWI0iTsg8URWI1NFFC0oqKlFQqKR5EoupWPAghSjGnSDx4lHmY+f//
++775/2/mZlGep9CbuT7l8si6ymfeO601Cc+a4Lm8KqBapBIEq0A5HdjoFkJtJ1xu
+EBAEkIOcxEMRcRpReA1iyhFVQAqEAVFjgSRrCFEeE14gogwpryqqwAmKRChkGF4h
+SIYY+IFumBEaj8UN02GyhGKkShhJMiICJogngipIosprmKgiVKmiIFHnOEaMWrbL
+YM2p2KYzDYvlWBAeaO8f+P/cd+KXnCITiDhW1InO86ocoFCSNCxxVCc8hC7QpnET
+V1CG1jcnsAl2+gFLJQ2Nuq66Y/xdnsmOfhCLW46lWVtYNuo4saBLcipjLipF1fBv
+flg1TML8Y4QkjduGZYIgx5CaY7iCnIgEEfEiFPyAbosZcRo2XAQzN8CGge41NMkk
+FWY7lkRNUrEmIrYUjb1AQCDMIl5BBIuyLEu6jhVRURUU0DQF60ST3EUEqAB3oq2m
+BYIiaxNHmKRtREzsJOIU7LzRsnGwx1vo8Q0Z5P4rT2HBiD+/rag331PTwM21703Z
+d9S3+NRQcxdqfnDdd/7t9IB/iXA+XTe5x5t5OWxWf6i2K39cLNFYD56eMNrPPJ/X
+djwZnZBLtRv9qw+Wrzod/OYr/br1fX9KNDu7Fu15CWY1SqM9meyY3NUxu4tfHOoM
+1GRWbNrckpr6dn1oRGlHouFNuvv7/HWP9pFjnye1jgx/XJltOJtru9Je+zDzeN6t
+vZeyy77ubdrgb1pX2vnUufa6+syMHbmStH0flq0cfnH2/vlL8+52l8yJbehdOO3T
+gSMdkQ/ZtSVGWbEQlXZrfeMvTHzybmwVCoWqe24LuKe+70XB8h99h5cvXVVQvX77
+l+YP0VELVr9KpytO/gSqfD64
+=oft0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fjuan
+
+==================================================================
