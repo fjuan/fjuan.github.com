@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #EFEFEF;
-}
-
 a {
     text-decoration: none;
     color: rgb(61, 146, 201);
@@ -38,15 +34,16 @@ h3 {
 }
 
 .sidebar {
-    background: rgb(43,78,114);
+    background: rgb(61, 79, 93);
     color: #fff;
 }
-.sidebar a {
-    color: #fff;
-}
+
 .brand-title,
 .brand-tagline {
     margin: 0;
+}
+.brand-title {
+    text-transform: uppercase;
 }
 .brand-tagline {
     font-weight: 300;
@@ -97,7 +94,7 @@ h3 {
 }
 .post-title {
     font-size: 2em;
-    color: #342C2D;
+    color: #222;
     margin-bottom: 0.2em;
 }
 .post-avatar {
@@ -123,8 +120,8 @@ h3 {
     background: #999;
     font-size: 80%;
 }
-    .post-category-tech {
-        background: rgb(43,78,114);
+    .post-category-design {
+        background: #5aba59;
     }
     .post-category-pure {
         background: #4d85d1;
@@ -132,7 +129,7 @@ h3 {
     .post-category-yui {
         background: #8156a7;
     }
-    .post-category-ruby {
+    .post-category-js {
         background: #df2d4f;
     }
 
