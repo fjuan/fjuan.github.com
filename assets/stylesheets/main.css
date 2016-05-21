@@ -129,6 +129,17 @@ nav ul, nav ol {
   border-bottom: 1px solid #bbb;
 }
 
+.local-anchors {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .local-anchors {
+    display: block;
+    margin: 1em 0;
+  }
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
