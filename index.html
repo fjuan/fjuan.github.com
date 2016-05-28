@@ -1,26 +1,24 @@
 ---
 layout: default
-title: Ruby developer
+title: Software engineer
 description: "Francisco Juan: resume and contact information. Interesting things about my working experience."
 lang: en
 ---
 
 <div class="posts">
-  <h2 class="content-subhead" id="about">Who am I</h2>
-
+  <h2 class="content-subhead" id="me">Who am I</h2>
   <section class="post">
     <header class="post-header">
       <img class="post-avatar" alt="Francisco&#x27;s avatar" height="64" width="64" src="assets/images/fjuan-avatar.jpg">
       <h2 class="post-title">About me</h2>
     </header>
-
     <div class="post-description">
-      <p>I'm a software developer and entrepreneur. Since 2009 I've been working with <a href="http://rubyonrails.org/" >Ruby on Rails</a> and many other technologies to build great websites and applications.</p>
-      <p>In my free time I host a cooking blog called <a href="http://www.recetasdemama.es">Recetas de Mamá</a> (Mom's recipes) that has become one of the most popular recipe sites on Spain. Since 2007 we've published around 900 recipes and three cooking books!</p>
+      <p>I'm a software engineer and entrepreneur. Since 2009 I've been working with <a href="http://rubyonrails.org/" >Ruby on Rails</a> and many other technologies to build websites and applications. Currently I'm developing myself as an Engineer Manager, after some years of working experience as entrepreneur and freelance developer.</p>
+      <p>In my free time I host a cooking blog called <a href="http://www.recetasdemama.es">Recetas de Mamá</a> (Mom's recipes) that has become one of the most popular recipe sites on Spain. Since 2007 we've published around 1000 recipes and three cooking books!</p>
     </div>
   </section>
 
-  <h2 class="content-subhead">What I've done</h2>
+  <h2 class="content-subhead" id="my-work">Software engineering</h2>
 
   <section class="post" id="ruby">
     <header class="post-header">
@@ -30,18 +28,27 @@ lang: en
         with <a href="https://www.ruby-lang.org/" class="post-category post-category-ruby">Ruby</a>
       </p>
     </header>
-
     <div class="post-description">
-      <p>Using Ruby I've had the opportunity to participate in a wide range of projects: from working with the <a href="http://www.ohwr.org">CERN</a> to building a financial calculator for energy related commodities.</p>
-      <h2>My latest project: mixing BigData and cybersecurity</h2>
-      <p>I joined the Telef&oacute;nica's cybersecurity team as freelancer on January 2014. We're a great team of +50 developers building a big infrastructure for storing and processing security information (malware, phishing, vulnerabilities...)</p>
-      <p>Within this project, I've been responsible for building Ruby APIs that connect to <a href="http://planetcassandra.org/" class="post-category post-category-tech">Cassandra</a> and <a href="http://kafka.apache.org/" class="post-category post-category-tech">Kafka</a>, the main technology behind our BigData. Inspired by <a href="http://martinfowler.com/articles/microservices.html">Martin Fowler</a> we decided to build these APIs using the microservices approach: small applications focused on solving one problem at a time.</p>
+      <p>Using Ruby I've had the opportunity to participate in a wide range of projects: from working with the <a href="http://www.ohwr.org">CERN</a> to building a financial calculator for energy related commodities or use <a href="http://planetcassandra.org/">Cassandra</a> and <a href="http://kafka.apache.org/">Kafka</a> for processing cybersecurity related information.</p>
+      <h2>My latest project: building a global Customer Support at Klarna</h2>
+      <p>I joined Klarna in February 2015 to build the customer support web interface. We were a team of three developers plus a designer. Our task was to develop an application to fetch and merge information from several microservices and then present available actions to the Customer Support advisor.</p>
+      <h2>The stack</h2>
+      <p>The tool is split into a Ruby on Rails REST API plus a Javascript frontend built with <a href="http://emberjs.com/" title="Ember, a framework for creating ambitious web applications">Ember</a>. Before the end of 2015 we included in our stack an <a href="https://www.elastic.co/products/elasticsearch" title="Elasticsearch | Search &amp; Analyze Data in Real Time">Elasticsearch</a> cluster in order to speed up the search of customers information.</p>
+      <p>Both Ruby and Javascript codebases have a thorough test coverage at different levels (unit, functional, integration) and are deployed following the principles of Continuos Integration and Continuos Delivery. While our test suits requires around 6 minutes to run, we improved our deployment pipeline to be able to release a new version in less than a minute after the test suite is verified. In total, it takes 8 minutes since the pull request is merged until the new code is in production and this has enabled us to release an average of 25 times per week.</p>
+      <h2>The numbers</h2>
+      <ul>
+        <li><strong>Elasticsearch</strong>: 10M documents, aprox 10Gb of data (by March 2016).</li>
+        <li><strong>Test suit</strong>: 99,7% coverage, 6 minutes to run.</li>
+        <li><strong>Deployments</strong>: < 2 minutes to production. Average of 25 times per week.</li>
+        <li><strong>Uptime</strong>: 100% during working hours.</li>
+      </ul>
       <h2>More projects</h2>
       <p>You might find more information at my <a href="assets/docs/cv-francisco-de-juan-nov-2014.pdf">Curriculum Vitae <i class="fa fa-file-pdf-o"></i></a>.</p>
     </div>
   </section>
 
-  <section class="post" id="recipes">
+  <h2 class="content-subhead" id="my-time">Outside of work</h2>
+  <section class="post">
     <header class="post-header">
       <img class="post-avatar" alt="WordPress&#x27;s logo" height="64" width="64" src="assets/images/wordpress-logo.png">
       <h2 class="post-title">Publishing recipes</h2>
@@ -49,7 +56,6 @@ lang: en
         Since 2007 with my mom at <a href="http://www.recetasdemama.es">www.recetasdemama.es</a>.
       </p>
     </header>
-
     <div class="post-description">
       <h2>The story</h2>
       <p>I moved from Cordoba to Madrid and my mother wrote me a cookbook with simple and delicious recipes. As I couldn't afford to loose it, I published those recipes to <a href="http://recetasdemama.blogspot.com" target="_blank">Blogger</a>. Some months later, she started writing as well and we decided to move to a new address: <a href="http://www.recetasdemama.es">recetasdemama.es</a>.</p>
