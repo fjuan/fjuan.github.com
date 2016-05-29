@@ -13,7 +13,7 @@ lang: en
       <h2 class="post-title">About me</h2>
     </header>
     <div class="post-description">
-      <p>Since 2009 I've been working with <a href="http://rubyonrails.org/">Ruby on Rails</a> and many other technologies to build websites and applications. After some years of experience as an entrepreneur and later on as a freelance developer, currently I'm developing myself as a software engineer manager.</p>
+      <p>Since 2009 I've been working with <a href="http://rubyonrails.org/">Ruby on Rails</a> and many other technologies to build websites and applications. After some years of experience as an entrepreneur and later on as a freelance developer, currently I'm developing myself as a software team lead.</p>
       <p>In my free time I host a cooking blog called <a href="http://www.recetasdemama.es">Recetas de Mamá</a> (Mom's recipes) that has become one of the most popular recipe sites on Spain. Since 2007 we've published around 1000 recipes and three cooking books!</p>
     </div>
   </section>
@@ -22,12 +22,19 @@ lang: en
   <section class="post">
     <header class="post-header">
       <img class="post-avatar" alt="Klarna&#x27;s logo" height="64" width="64" src="assets/images/klarna-logo.png">
-      <h2 class="post-title">Engineer management</h2>
+      <h2 class="post-title">Engineering Team Lead</h2>
       <p class="post-meta">
         at <a href="https://klarna.com/">Klarna</a>
       </p>
     </header>
     <div class="post-description">
+      <p>Klarna Engineering is organized in several different domains, each domain is split into smaller teams and each of them is composed of a Team Lead, a Scrum Master and 6-7 engineers. Each team, together with a Product Manager, now becomes a Product Team and will be fully responsible of roadmap, stakeholders relationship, technology decisions, ways of working, deployments, on-call...</p>
+      <p>I'm leading the engineering team that builds tools for a global Customer Support at Klarna. My responsibilities are the delivery of my team, mentoring and coaching team members, supporting the product organization and helping in cross team initiatives.</p>
+      <ul>
+        <li><strong>Growing</strong>: I was part of the recruiting process that grew our team from 3 to 10 developers.</li>
+        <li><strong>Setting the process</strong>: Kanban is our choice and I designed the training material that helped the team to start using it.</li>
+        <li><strong>Become a team</strong>: we are a highly efficient team by following the <a href="http://www.tablegroup.com/books/dysfunctions">Five Dysfunctions of a Team</a> framework.</li>
+      </ul>
     </div>
   </section>
 
@@ -36,21 +43,20 @@ lang: en
       <img class="post-avatar" alt="Ruby&#x27;s logo" height="64" width="64" src="assets/images/ruby-logo.png">
       <h2 class="post-title">Writing software</h2>
       <p class="post-meta">
-        with <a href="https://www.ruby-lang.org/" class="post-category post-category-ruby">Ruby</a>
+        with <a href="https://www.ruby-lang.org/">Ruby</a>
       </p>
     </header>
     <div class="post-description">
       <p>Using Ruby I've had the opportunity to participate in a wide range of projects: from working with the <a href="http://www.ohwr.org">CERN</a> to building a financial calculator for energy related commodities or use <a href="http://planetcassandra.org/">Cassandra</a> and <a href="http://kafka.apache.org/">Kafka</a> for processing cybersecurity related information.</p>
-      <h3>My latest project: building a global Customer Support at Klarna</h3>
+      <h3>My latest project: building tools for a global Customer Support.</h3>
       <p>I joined Klarna in February 2015 to build the customer support web interface. We were a team of three developers plus a designer and grew up to 10 people before the end of the year. Our task was to develop an application to fetch and merge information from several microservices and then present available actions to the Customer Support advisor.</p>
       <h3>The stack</h3>
-      <p>The tool is split into a Ruby on Rails REST API plus a Javascript frontend built with <a href="http://emberjs.com/" title="Ember, a framework for creating ambitious web applications">Ember</a>. Behind scenes, the Rails app is an stateless proxy connected to a dozen of other services (transactions log, order management, LDAP, risk tools) and the Ember part is a simple Single Page App beautifully crafted to make it easy to work with it. Before the end of 2015 we included in our stack an <a href="https://www.elastic.co/products/elasticsearch" title="Elasticsearch | Search &amp; Analyze Data in Real Time">Elasticsearch</a> cluster in order to speed up the search of customers information.</p>
-      <p>Both Ruby and Javascript codebases have a thorough test coverage at different levels (unit, functional, integration) and are deployed following the principles of Continuos Integration and Continuos Delivery. While our test suits requires around 6 minutes to run, we improved our deployment pipeline to be able to release a new version in less than a minute after the test suite is verified. In total, it takes 8 minutes since the pull request is merged until the new code is in production and this has enabled us to release an average of 25 times per week.</p>
-      <h3>The numbers</h3>
+      <p>The application is split into a Ruby on Rails REST API plus a Javascript frontend built with <a href="http://emberjs.com/" title="Ember, a framework for creating ambitious web applications">Ember</a>. Behind the scenes, the Rails app is an stateless proxy connected to a dozen of other services (transactions log, order management, LDAP, risk tools) and the Ember part is a Single Page App beautifully crafted to make it easy to work with it. Before the end of 2015 we included in our stack an <a href="https://www.elastic.co/products/elasticsearch" title="Elasticsearch | Search &amp; Analyze Data in Real Time">Elasticsearch</a> cluster in order to speed up the search of customer information.</p>
+      <p>Both Ruby and Javascript codebases have a thorough test coverage at different levels (unit, functional, integration) and are deployed following the principles of Continuous Integration and Continuous Delivery. While our test suite requires around 6 minutes to run, we improved our deployment pipeline to be able to release a new version in less than a minute after the tests are green. Thanks to that speed, we're releasing an average of 25 new features per week.</p>
+      <h3>Some numbers</h3>
       <ul>
         <li><strong>Elasticsearch</strong>: 10M documents, aprox 10Gb of data (by March 2016).</li>
-        <li><strong>Test suit</strong>: 99,7% coverage, 6 minutes to run.</li>
-        <li><strong>Deployments</strong>: &lt; 2 minutes to production. Average of 25 times per week.</li>
+        <li><strong>Test suite</strong>: 99,7% coverage, 6 minutes to run.</li>
         <li><strong>Uptime</strong>: 100% during working hours.</li>
       </ul>
       <h3>More projects</h3>
