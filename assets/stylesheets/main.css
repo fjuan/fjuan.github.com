@@ -3,7 +3,7 @@
 @import "pure/1.0.1/pure-min.css";
 @import "pure/1.0.1/grids-responsive-min.css";
 @import "layouts/blog.css";
-@import "fontawesome/5.12.0/all.min.css";
+@import "fontello.css";
 
 * {
     -webkit-box-sizing: border-box;
