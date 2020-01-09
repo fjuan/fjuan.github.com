@@ -17,12 +17,12 @@ html {
 }
 
 body {
-  background-color: #EFEFEF;
+  background-color: #E8EDF3;
 }
 
 a {
     text-decoration: none;
-    color: rgb(61, 146, 201);
+    color: #0F4880;
 }
 a:hover,
 a:focus {
@@ -30,12 +30,12 @@ a:focus {
 }
 
 .sidebar {
-   background: rgb(43, 78, 114) none repeat scroll 0 0;
-   color: #fff;
+   background: #0F4880 none repeat scroll 0 0;
+   color: #FFF;
 }
 
 .sidebar a {
-  color: #fff;
+  color: #E8EDF3;
 }
 
 .brand-title {

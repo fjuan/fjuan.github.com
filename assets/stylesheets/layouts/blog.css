@@ -27,7 +27,7 @@
 }
 .brand-tagline {
     font-weight: 300;
-    color: rgb(176, 202, 219);
+    color: #FAE596;
 }
 
 .nav-list {
@@ -57,7 +57,7 @@
 
 .content-subhead {
     text-transform: uppercase;
-    color: #aaa;
+    color: #0F4880;
     border-bottom: 1px solid #eee;
     padding: 0.4em 0;
     font-size: 80%;
@@ -84,11 +84,11 @@
 }
 .post-description {
     font-family: Georgia, "Cambria", serif;
-    color: #444;
+    color: #1C1E20;
     line-height: 1.8em;
 }
 .post-meta {
-    color: #999;
+    color: #1C1E20;
     font-size: 90%;
     margin: 0;
 }
